@@ -1,23 +1,9 @@
-# The-Azad-Pentad
-5D Universal Plenum Theory (Ref #17680744).
-# The Azad Pentad (Ref #17680744)
-# Calculation: Redshift as 5D Plenum Curvature vs. 4D Expansion
 
-import numpy as np
 
-def calculate_psi(S, T, E, L, M):
-    """The Equation of Absolute Persistence"""
-    return S * T * E * L * M
-
-def bending_ruler_redshift(distance, plenum_density):
-    """Calculates redshift (z) based on geometric curvature (E)"""
-    # In a 5D Plenum, light loses energy to the manifold density over distance
-    z = distance * plenum_density 
-    return z
-
-# Defining the State of the Plenum
-S, T, E, L, M = 1, 1, 0.73, 1, 1  # Example constants
-Psi = calculate_psi(S, T, E, L, M)
-
-print(f"Absolute Persistence (Psi): {Psi}")
-print("Status: Cosmological Rectification Active.")
+The Azad Pentad: Absolute Persistence (Ref #17680744)
+​Official repository for the 5D Stationary Manifold framework.
+​Technical Specifications
+​The Master Equation: (S · T · E · L · M) = Ψ
+​The Linearity Law: L = sec(θ)
+​The Invariance Principle: dΨ / dt = 0
+​The Bending Ruler Effect: We propose that cosmological redshift is a result of Linearity (L) distortion in a 5D manifold, creating the illusion of expansion in a stationary universe.
